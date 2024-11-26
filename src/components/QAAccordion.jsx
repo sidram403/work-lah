@@ -43,13 +43,13 @@ const QAAccordion = () => {
             aria-expanded={openIndex === index}
           >
             <div className="flex items-center gap-6">
-              <img src="src/assets/question.png" className="h-10 w-10 flex-shrink-0" />
+              <img src="./assets/question.png" className="h-10 w-10 flex-shrink-0" />
               <span className="text-[24px] text-black font-semibold">{item.question}</span>
             </div>
             {openIndex === index ? (
-              <img src="src/assets/arrow-up.png" className="h-8 w-8 text-gray-500 transition-transform duration-300 ease-in-out" />
+              <img src="./assets/arrow-up.png" className="h-8 w-8 text-gray-500 transition-transform duration-300 ease-in-out" />
             ) : (
-              <img src="src/assets/arrow-down.png" className="h-8 w-8 text-gray-500 transition-transform duration-300 ease-in-out" />
+              <img src="./assets/arrow-down.png" className="h-8 w-8 text-gray-500 transition-transform duration-300 ease-in-out" />
             )}
           </button>
           <div 

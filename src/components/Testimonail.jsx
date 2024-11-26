@@ -6,31 +6,31 @@ const testimonials = [
   {
     id: 1,
     name: "David Patel",
-    image: "src/assets/avatar.png",
+    image: "./assets/avatar.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus",
   },
   {
     id: 2,
     name: "John Doe",
-    image: "src/assets/avatar.png",
+    image: "./assets/avatar.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus",
   },
   {
     id: 3,
     name: "Sarah Lee",
-    image: "src/assets/avatar.png",
+    image: "./assets/avatar.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus",
   },
   {
     id: 4,
     name: "Mike Ross",
-    image: "src/assets/avatar.png",
+    image: "./assets/avatar.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus",
   },
   {
     id: 5,
     name: "Jessica Smith",
-    image: "src/assets/avatar.png",
+    image: "./assets/avatar.png",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis magna leo varius lectus",
   },
 ];
@@ -106,7 +106,7 @@ const Testimonial = () => {
                 {/* Quote */}
                 <div className="mt-4 flex flex-col gap-2">
                 <div>
-                    <img src="src/assets/comma.svg" alt="comma" className="w-8 h-8"/>
+                    <img src="./assets/comma.svg" alt="comma" className="w-8 h-8"/>
                 </div>
                   <p className="text-gray-600 text-sm leading-relaxed ml-8">
                     {testimonial.text}

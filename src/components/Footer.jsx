@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex gap-32">
             <div>
               <img
-                src="src/assets/logo.png"
+                src="./assets/logo.png"
                 alt="Worklah Logo"
                 className="w-20 h-auto mb-4"
               />

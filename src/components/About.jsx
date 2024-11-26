@@ -23,7 +23,7 @@ const  About= ()=> {
         
             Pick what works best – role, time, and place – and enjoy the freedom to create your own work journey with WorkLah.
         `}
-        image="src/assets/about1.png"
+        image="./assets/about1.png"
         
         />
         <AboutCards 
@@ -34,7 +34,7 @@ const  About= ()=> {
               
               Standby lets you stay flexible while keeping options open – earn extra on your schedule with WorkLah.
             `}
-            image="src/assets/about2.png"
+            image="./assets/about2.png"
         />
         <AboutCards 
             title="Get Paid Instantly with WorkLah."
@@ -44,7 +44,7 @@ const  About= ()=> {
               
               Planning a weekend getaway or a special treat? With WorkLah, your earnings are ready when you are – no waiting, just instant access to your hard-earned pay.
             `}
-            image="src/assets/about3.png"  
+            image="./assets/about3.png"  
 
         />
         </div>
@@ -53,14 +53,14 @@ const  About= ()=> {
         <div className="mt-8 flex justify-center gap-4">
         <a href="#" className="inline-block">
                 <img
-                  src="src/assets/apple-store.png"
+                  src="./assets/apple-store.png"
                   alt="Download on the App Store"
                   className="h-16 w-auto"
                 />
               </a>
               <a href="#" className="inline-block">
                 <img
-                  src="src/assets/google-play.png"
+                  src="./assets/google-play.png"
                   alt="Get it on Google Play"
                   className="h-16 w-auto"
                 />

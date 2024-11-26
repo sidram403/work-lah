@@ -5,25 +5,25 @@ const AppFlowSteps = () => {
     {
       title: "Sign Up:",
       description: "Create your profile.",
-      imageUrl: "src/assets/step-1.png",
-      arrowImage: "src/assets/arrow-1.png",
+      imageUrl: "./assets/step-1.png",
+      arrowImage: "./assets/arrow-1.png",
     },
     {
       title: "Browse Jobs:",
       description: "Search your preferred job you want to work on.",
-      imageUrl: "src/assets/step-2.png",
-      arrowImage: "src/assets/arrow-2.png",
+      imageUrl: "./assets/step-2.png",
+      arrowImage: "./assets/arrow-2.png",
     },
     {
       title: "Apply:",
       description: "Select shifts that work for you.",
-      imageUrl: "src/assets/step-3.png",
-      arrowImage: "src/assets/arrow-3.png",
+      imageUrl: "./assets/step-3.png",
+      arrowImage: "./assets/arrow-3.png",
     },
     {
       title: "Get Hired & Paid:",
       description: "Complete the shift and get paid instantly.",
-      imageUrl: "src/assets/step-4.png",
+      imageUrl: "./assets/step-4.png",
       arrowImage: "",
     },
   ];

@@ -19,7 +19,7 @@ const Hero=() => {
         </div> 
         <div className="flex items-center justify-center">
           <img
-            src="src/assets/logo.png"
+            src="./assets/logo.png"
             alt="WorkLah Logo"
             className="h-16 w-auto"
           />
@@ -46,14 +46,14 @@ const Hero=() => {
             <div className="flex gap-4">
               <a href="#" className="inline-block">
                 <img
-                  src="src/assets/apple-store.png"
+                  src="./assets/apple-store.png"
                   alt="Download on the App Store"
                   className="h-16 w-auto"
                 />
               </a>
               <a href="#" className="inline-block">
                 <img
-                  src="src/assets/google-play.png"
+                  src="./assets/google-play.png"
                   alt="Get it on Google Play"
                   className="h-16 w-auto"
                 />
@@ -63,7 +63,7 @@ const Hero=() => {
           
           <div className="relative z-10">
             <img
-              src="src/assets/Group1.png"
+              src="./assets/Group1.png"
               alt="WorkLah App Interface and Team"
               className="w-full h-auto"
             />
@@ -75,7 +75,7 @@ const Hero=() => {
 
         </div>
      
-        <div className='absolute z-9 w-full bottom-0  left-0'><img className='w-full' src="src/assets/Group.svg" alt="" /></div>
+        <div className='absolute z-9 w-full bottom-0  left-0'><img className='w-full' src="./assets/Group.svg" alt="" /></div>
 
     </div>
   )
