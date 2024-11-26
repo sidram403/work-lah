@@ -1,7 +1,7 @@
 import React from 'react'
 import { Menu } from 'lucide-react'
 
-export default function Hero() {
+const Hero=() => {
   return (
     <div className=" min-h-screen relative z-10">
         <div className='bg-[#C4E8FF] mx-3 my-3 rounded-lg px-4'>
@@ -9,7 +9,7 @@ export default function Hero() {
        
        <div className='flex items-center'>
        <button className=" border-none bg-black rounded-full mr-2">
-          <Menu className="h-6 w-6" />
+          <Menu className="h-6 w-6" color='white' />
         </button>
         <div className="hidden md:flex items-center gap-1">
 
@@ -21,7 +21,7 @@ export default function Hero() {
           <img
             src="src/assets/logo.png"
             alt="WorkLah Logo"
-            className="h-10 w-auto"
+            className="h-16 w-auto"
           />
         </div>
         <div className="hidden md:flex items-center gap-4">
@@ -48,14 +48,14 @@ export default function Hero() {
                 <img
                   src="src/assets/apple-store.png"
                   alt="Download on the App Store"
-                  className="h-10 w-auto"
+                  className="h-16 w-auto"
                 />
               </a>
               <a href="#" className="inline-block">
                 <img
                   src="src/assets/google-play.png"
                   alt="Get it on Google Play"
-                  className="h-10 w-auto"
+                  className="h-16 w-auto"
                 />
               </a>
             </div>
@@ -81,3 +81,4 @@ export default function Hero() {
   )
 }
 
+export default Hero

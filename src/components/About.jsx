@@ -1,14 +1,17 @@
 import React from 'react'
 import AboutCards from './AboutCards'
+import LayoutTitle from './LayoutTitle'
 
-export default function About() {
+const  About= ()=> {
   return (
-    <section className="py-12 px-6 bg-white">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-8 px-4 bg-white">
+      <div className='py-8 px-12'>
+        <LayoutTitle iconColor="#048BE1" firstText="About" secondText="WorkLah!" />
+
+        </div>
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h2 className="text-2xl md:text-3xl font-bold text-blue-600 mb-8 text-center">
-          About <span className="text-blue-500">WorkLah!</span>
-        </h2>
+        
 
         {/* Cards */}
         <div className="grid md:grid-cols-3 gap-8">
@@ -48,29 +51,25 @@ export default function About() {
 
         {/* App Links */}
         <div className="mt-8 flex justify-center gap-4">
-          <a
-            href="#"
-            className="inline-block"
-          >
-            <img
-              src="path-to-appstore-badge" // Replace with the correct path
-              alt="Download on App Store"
-              className="h-12"
-            />
-          </a>
-          <a
-            href="#"
-            className="inline-block"
-          >
-            <img
-              src="path-to-googleplay-badge" // Replace with the correct path
-              alt="Get it on Google Play"
-              className="h-12"
-            />
-          </a>
+        <a href="#" className="inline-block">
+                <img
+                  src="src/assets/apple-store.png"
+                  alt="Download on the App Store"
+                  className="h-16 w-auto"
+                />
+              </a>
+              <a href="#" className="inline-block">
+                <img
+                  src="src/assets/google-play.png"
+                  alt="Get it on Google Play"
+                  className="h-16 w-auto"
+                />
+              </a>
         </div>
       </div>
     </section>
   )
 }
+
+export default About
 
