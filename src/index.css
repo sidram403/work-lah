@@ -34,6 +34,9 @@
   background-color: #FFFFFF;
 }
 
+.bg-promo{
+  background-image: url('./public/assets/promo-bg.png');
+}
 a {
   font-weight: 500;
   color: #646cff;
