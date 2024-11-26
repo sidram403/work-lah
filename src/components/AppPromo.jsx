@@ -1,8 +1,9 @@
 import { Download } from 'lucide-react'
+import promoBg from './../../public/assets/promo-bg.png';
 
 const AppPromo=()=> {
   return (
-    <div className="relative mb-32 h-[460px] w-full overflow-hidden bg-promo bg-cover bg-no-repeat bg-center">
+    <div className="relative mb-32 h-[460px] w-full overflow-hidden  bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${promoBg})` }}>
       <div className="relative container mx-auto px-4 py-4  flex flex-col justify-center">
         <div className="grid items-center gap-8 lg:grid-cols-2">
           {/* Left Content */}
