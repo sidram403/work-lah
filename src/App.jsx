@@ -1,12 +1,24 @@
 import React from 'react'
 import Hero from './components/Hero'
 import About from './components/About'
+import AppFlowSteps from './components/AppFlowSteps'
+import QAAccordion from './components/QAAccordion'
+import Testimonial from './components/Testimonail'
+import AppPromo from './components/AppPromo'
+import Footer from './components/Footer'
 
-export default function App() {
+const App=() => {
   return (
    <main>
     <Hero/>
     <About />
+    <Testimonial />
+    <AppFlowSteps />
+    <QAAccordion />
+    <AppPromo />
+    <Footer />
    </main>
   )
 }
+
+export default App
