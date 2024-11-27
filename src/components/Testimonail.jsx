@@ -68,8 +68,8 @@ const Testimonial = () => {
   return (
     <div className="w-full py-8 px-4 md:px-8 lg:px-12 overflow-hidden">
       {/* Heading */}
-      <div className="mb-8 flex flex-col sm:flex-row justify-between items-center">
-        <h2 className="text-xl font-bold text-gray-800 flex items-center gap-2 mb-4 sm:mb-0">
+      <div className="mb-8 flex flex-row justify-between items-center">
+        <h2 className="text-xl font-bold text-gray-800 flex items-center gap-2  sm:mb-0">
           <LayoutTitle iconColor="#F12DEE" firstText="Testimonials" secondText="" />
         </h2>
         <div className="flex gap-4">

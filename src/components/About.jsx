@@ -4,7 +4,7 @@ import LayoutTitle from './LayoutTitle';
 
 const About = () => {
   return (
-    <section className="py-8 px-4 bg-white">
+    <section className="py-4 md:py-8 px-4 bg-white">
       <div className="py-8 px-4 md:px-12">
         <LayoutTitle iconColor="#048BE1" firstText="About" secondText="WorkLah!" />
       </div>
@@ -32,7 +32,7 @@ const About = () => {
         </div>
 
         {/* App Links */}
-        <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <div className="mt-8 flex items-center gap-4 flex-row justify-center">
           <a href="#" className="inline-block">
             <img
               src="./assets/apple-store.png"

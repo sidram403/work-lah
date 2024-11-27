@@ -4,7 +4,7 @@ import promoBg from "./../../public/assets/promo-bg.png";
 const AppPromo = () => {
   return (
     <div
-      className="relative mb-32 lg:h-[460px] md:h-[340px] h-[450px] w-full overflow-hidden  bg-cover bg-no-repeat bg-center"
+      className="relative mb-12 md:mb-20 lg:mb-32 lg:h-[460px] md:h-[340px] h-[450px] w-full overflow-hidden  bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${promoBg})` }}
     >
       <div className="relative container mx-auto px-4 py-4  flex flex-col justify-center">

@@ -29,8 +29,8 @@ const AppFlowSteps = () => {
   ];
 
   return (
-    <section className="py-8 px-4 bg-white">
-      <div className="py-8 px-12">
+    <section className="py-4 px-2 md:py-8 md:px-4 bg-white">
+      <div className="py-4 md:py-8 px-2 md:px-12">
         <LayoutTitle
           iconColor="#F68A24"
           firstText="How to"

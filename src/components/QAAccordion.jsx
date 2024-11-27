@@ -27,14 +27,14 @@ const QAAccordion = () => {
   };
 
   return (
-    <section className="py-8 px-4 bg-white">
+    <section className="py-2 md:py-8 px-4 bg-white">
       {/* Section Header */}
-      <div className="py-8 px-4 md:px-12">
+      <div className="py-4 md:py-8 px-4 md:px-12">
         <LayoutTitle iconColor="#000000" firstText="Q&A" secondText="" />
       </div>
 
       {/* FAQ Container */}
-      <div className="max-w-7xl mx-auto px-4 space-y-6">
+      <div className="max-w-7xl mx-auto px-4 space-y-2 md:space-y-6">
         {faqData.map((item, index) => (
           <div key={index} className="overflow-hidden">
             {/* Question Button */}
