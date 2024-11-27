@@ -2,6 +2,12 @@ import React from 'react';
 import { Menu } from 'lucide-react';
 
 const Hero = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="min-h-screen relative z-10">
       <div className="bg-[#C4E8FF] mx-3 my-3 rounded-lg px-4">
@@ -36,6 +42,7 @@ const Hero = () => {
               <button
                 key={index}
                 className="bg-white text-black px-4 py-2 rounded-full"
+                onClick={() => scrollToSection(`${item}`)}
               >
                 {item}
               </button>
