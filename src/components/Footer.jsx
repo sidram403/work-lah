@@ -3,12 +3,12 @@ import { MapPin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8 px-12 ">
-      <div className="container mx-auto px-4">
+    <footer className="bg-black text-white py-8 px-4 md:px-12">
+      <div className="container mx-auto">
         {/* Top Section */}
-        <div className="flex flex-col md:flex-row items-start gap-64">
+        <div className="flex flex-col md:flex-row items-start gap-8 md:gap-16">
           {/* Left Section */}
-          <div className="flex gap-32">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-32">
             <div>
               <img
                 src="./assets/logo.png"
@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-lg font-semibold mb-2">Contact Us</p>
-              <h3 className="text-4xl">WORKLAH! PVT. LTD.</h3>
+              <h3 className="text-2xl md:text-4xl">WORKLAH! PVT. LTD.</h3>
               <div className="flex items-center gap-2 text-xl mt-2">
                 <MapPin className="text-blue-500" />
                 <span>123 Orchard Road, #04-56, Singapore 238888</span>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className=" mt-8 pt-4 text-center text-sm text-gray-500">
+        <div className="mt-8 pt-4 text-center text-sm text-gray-500">
           © 2023 WORKLAH! PTE. LTD.
         </div>
       </div>

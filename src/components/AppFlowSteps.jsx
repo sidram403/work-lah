@@ -57,18 +57,18 @@ const AppFlowSteps = () => {
                   <div
                     className={`${
                       index === 0
-                        ? "-right-20 top-[60%]"
+                        ? "-right-[5.5rem] max-[1535px]:-right-[3rem] max-[1282px]:-right-[2.5rem] top-[60%] "
                         : index === 1
-                        ? "-right-[5.5rem] top-[50%]"
-                        : "-right-[7.4rem] top-[50%]"
-                    } absolute -right-16 top-1/2 -translate-y-1/2 z-10 hidden lg:block`}
+                        ? "-right-[5.5rem] max-[1535px]:-right-[3rem] max-[1282px]:-right-[2.5rem] top-[50%]"
+                        : "-right-[7.4rem] max-[1535px]:-right-[5.4rem] max-[1282px]:-right-[4.5rem] top-[50%]"
+                    } absolute -translate-y-1/2 z-10 hidden lg:block`}
                   >
                     <img
                       src={step.arrowImage}
                       alt="Arrow right"
                       width={100}
                       height={50}
-                      className="w-32"
+                      className="w-32 max-[1535px]:w-24 max-[1282px]:w-20"
                     />
                   </div>
                 )}
