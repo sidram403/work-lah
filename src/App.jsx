@@ -14,9 +14,9 @@ const App = () => {
       <section id="About">
         <About />
       </section>
-      <section id="Reviews">
+      {/* <section id="Reviews">
         <Testimonial />
-      </section>
+      </section> */}
       <section id="How to use">
         <AppFlowSteps />
       </section>

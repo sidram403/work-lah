@@ -5,25 +5,25 @@ const AppFlowSteps = () => {
     {
       title: "Sign Up:",
       description: "Create your profile.",
-      imageUrl: "./assets/step-1.png",
+      imageUrl: "./assets/step-1.svg",
       arrowImage: "./assets/arrow-1.png",
     },
     {
       title: "Browse Jobs:",
       description: "Search your preferred job you want to work on.",
-      imageUrl: "./assets/step-2.png",
+      imageUrl: "./assets/step-2.svg",
       arrowImage: "./assets/arrow-2.png",
     },
     {
       title: "Apply:",
       description: "Select shifts that work for you.",
-      imageUrl: "./assets/step-3.png",
+      imageUrl: "./assets/step-3.svg",
       arrowImage: "./assets/arrow-3.png",
     },
     {
       title: "Get Hired & Paid:",
       description: "Complete the shift and get paid instantly.",
-      imageUrl: "./assets/step-4.png",
+      imageUrl: "./assets/step-4.svg",
       arrowImage: "",
     },
   ];
@@ -51,16 +51,16 @@ const AppFlowSteps = () => {
                 <img
                   src={step.imageUrl}
                   alt={`Step ${index + 1} screen`}
-                  className="rounded-lg w-[300px] h-[320px] "
+                  className="rounded-lg w-[340px] h-[360px] "
                 />
                 {index < steps.length - 1 && (
                   <div
                     className={`${
                       index === 0
-                        ? "-right-[5.5rem] max-[1535px]:-right-[3rem] max-[1282px]:-right-[2.5rem] top-[60%] "
+                        ? "-right-[3.5rem] max-[1535px]:-right-[3rem] max-[1282px]:-right-[2.5rem] top-[60%] "
                         : index === 1
-                        ? "-right-[5.5rem] max-[1535px]:-right-[3rem] max-[1282px]:-right-[2.5rem] top-[50%]"
-                        : "-right-[7.4rem] max-[1535px]:-right-[5.4rem] max-[1282px]:-right-[4.5rem] top-[50%]"
+                        ? "-right-[3.5rem] max-[1535px]:-right-[3rem] max-[1282px]:-right-[2.5rem] top-[50%]"
+                        : "-right-[5.2rem] max-[1535px]:-right-[5.4rem] max-[1282px]:-right-[4.5rem] top-[58%]"
                     } absolute -translate-y-1/2 z-10 hidden lg:block`}
                   >
                     <img
@@ -68,7 +68,7 @@ const AppFlowSteps = () => {
                       alt="Arrow right"
                       width={100}
                       height={50}
-                      className="w-32 max-[1535px]:w-24 max-[1282px]:w-20"
+                      className="w-28 max-[1535px]:w-24 max-[1282px]:w-20"
                     />
                   </div>
                 )}
