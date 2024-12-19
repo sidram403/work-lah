@@ -19,11 +19,11 @@ const Footer = () => {
             <div>
               <p className="text-lg font-semibold mb-2">Contact Us</p>
               <h3 className="text-2xl md:text-4xl">Attain Consulting Group Pte. Ltd.</h3>
-              <div className="flex items-center gap-2 text-xl mt-2">
+              <div className="flex items-center gap-2 text-xl mt-2 font-[300] font-poppins">
                 <MapPin className="text-blue-500" />
                 <span>10 ANSON ROAD #10-11 INTERNATIONAL PLAZA SINGAPORE (079903)</span>
               </div>
-              <div className="flex items-center gap-2 text-xl mt-2">
+              <div className="flex items-center gap-2 text-xl mt-2 font-[300] font-poppins">
                 <Mail className="text-blue-500" />
                 <a href="mailto:support@worklah.in" className="hover:underline">
                   <p className="text-white">admin@worklah.com.sg</p>
